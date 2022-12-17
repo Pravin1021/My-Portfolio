@@ -1,0 +1,82 @@
+
+.navlink li a:hover{
+   color: aqua !important;
+   text-shadow: 3px 3px 5px aqua;
+}
+.medialink  {
+    padding-left: 0;
+}
+.bannername{
+    color:aqua;
+}
+.medialink li a:hover{
+    background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.profileimg img{
+    border-bottom-left-radius:50% ;
+    border-top-right-radius:50% ;
+}
+body{
+    background-color: rgb(37, 33, 33) !important;   
+}
+.header{
+    background-color: rgb(49, 51, 47);
+
+}
+li{
+    list-style-type: none;
+}
+.cv{
+    text-decoration: none;
+    background: linear-gradient(to right, #13cde6 0%, #2331ed 51%, #e613db 100%);
+}
+.cv:hover{
+    background: linear-gradient(to right, #e61395 0%, #2331ed 51%, #13aae6 100%);
+}
+.aboutimg img{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    width: 80%;
+    box-shadow: 3px 3px 5px  aqua;
+}
+
+h2{
+    position: relative;
+}
+h2::after{
+    content: "";
+    position: absolute;
+    top:30;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 3rem;
+    height: 0.2rem;
+    background-color: aqua;
+}
+.projectimg img:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.projectimg{
+    overflow: hidden;
+}
+.mailto , .tel{
+    text-decoration: none;
+}
+.mailto:hover{
+    color: aqua !important;
+}
+.tel:hover{
+    color: aqua !important;
+}
+.location span,.abouticon{
+    color: aqua !important;
+}
+.name{
+    text-decoration: none;
+    color: aqua !important;
+}
+
