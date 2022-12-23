@@ -79,4 +79,9 @@ h2::after{
     text-decoration: none;
     color: aqua !important;
 }
-
+.btnresume{
+    background-color: #13cde6;
+    border: #13cde6;
+    border-radius: 5px;
+    padding: 5px 17px;
+}
